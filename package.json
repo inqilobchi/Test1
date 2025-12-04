@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --loader ts-node/esm --respawn index.ts",
+    "dev": "node --loader ts-node/esm index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
